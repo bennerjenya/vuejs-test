@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import MenuItem from './MenuItem';
+import MenuItem from './MenuItem.vue';
 
 export default {
   name: 'HeaderMenu',
@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "~assets/variables.scss";
+@import "../assets/variables.scss";
 
 .main-navigation {
   &__list {
